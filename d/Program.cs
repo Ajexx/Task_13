@@ -58,7 +58,4 @@ static FileStatistics fileStatistics (string filePath)
         Lines = lines,
         Errors = Regex.Matches(text, "error", RegexOptions.IgnoreCase).Count
     };
-}
-;
-
-
+};
